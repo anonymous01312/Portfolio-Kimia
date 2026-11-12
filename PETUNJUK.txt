@@ -1,0 +1,22 @@
+ACID & BASE LAB — WEBSITE PEMBELAJARAN KIMIA SMA
+
+STRUKTUR
+- index.html: halaman beranda.
+- halaman/: setiap topik memiliki satu file HTML tersendiri.
+- assets/style.css: desain dan tampilan seluruh halaman.
+- assets/site.js: navigasi seluler, simulasi, dan kuis.
+
+SETIAP HALAMAN BERDIRI SENDIRI
+Tidak ada halaman yang menggabungkan beberapa topik ke dalam satu kategori. Glosarium dan Tentang Pembuat juga memiliki halaman masing-masing. Halaman Daftar Referensi dihapus sesuai permintaan.
+
+UPLOAD KE GITHUB PAGES
+1. Ekstrak seluruh isi ZIP.
+2. Unggah isi folder ini ke root repository GitHub. Pastikan index.html berada di root.
+3. Buka Settings > Pages.
+4. Pilih Deploy from a branch, branch main, folder /(root), lalu Save.
+
+CATATAN
+- Website menggunakan HTML, CSS, dan JavaScript biasa; tidak memerlukan proses build.
+- Google Fonts dan MathJax menggunakan CDN sehingga memerlukan internet.
+- Ganti identitas pada halaman Tentang Pembuat sebelum dipublikasikan.
+- Simulasi bersifat ilustratif untuk pembelajaran.
